@@ -1,0 +1,178 @@
+body{
+   background-color: #fff;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+img{
+   max-width: 100%;
+}
+
+.container{
+   width: 100%;
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
+.visually-hidden {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+ }
+
+.site-main {
+
+}
+
+.what-drink-coffee {
+   padding-top: 159px;
+   padding-bottom: 168px;
+}
+
+.what-drink-coffee__container {
+   display: flex;
+   align-items: stretch;
+   justify-content: space-between;
+   padding-left: 85px;
+   padding-right: 85px;
+}
+
+.what-drink-coffee__how {
+   width: 255px;
+}
+
+.what-drink-coffee__how-desc{
+   width: 255px;
+   padding-right: 32px;
+   padding-bottom: 24px;
+   word-spacing:10px;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: #42495391 ;
+}
+
+.what-drink-coffee__how-desc:not(:first-child){
+   padding-top: 24px;
+}
+
+.what-drink-coffee__how-desc:not(:last-child){
+   border-bottom: 1px solid #42495391;
+}
+
+.what-drink-coffee__how-desc:active {
+ color: #000;
+}
+
+.what-drink-coffee__type {
+   width: 730px;
+}
+
+.what-drink-coffee__heading {
+   margin-bottom: 56px;
+   color: #83888f;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   text-align: left;
+}
+
+.label:not(:last-child){
+   margin-right: 23px;
+}
+
+.input-wrapper{
+   display: flex;
+   margin-bottom: 88px;
+}
+
+.form-type-input:checked + .what-drink-coffee__content {
+   color: #fff;
+   background-color:#0e8784;
+}
+
+.what-drink-coffee__content {
+   width: 255px;
+   padding: 32px 28px 84px 28px;
+   background-color: #f4f1eb;
+   border-radius: 8px;
+}
+
+.what-drink-coffee__content:hover{
+   background-color: #8e999a;
+}
+
+.what-drink-coffee__content-title {
+   margin-bottom: 24px;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: #333d4b;
+}
+
+.what-drink-coffee__content-desc {
+   width: 175px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333d4b;
+}
+
+.what-drink-coffee__answer {
+   position: relative;
+   margin-bottom: 40px;
+   padding: 61px 64px 27px 64px;
+   background-color: #2C343E;
+}
+
+.what-drink-coffee__answer-desc {
+   width: 602px;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 40px;
+   color: #fff;
+}
+
+.what-drink-coffee__answer-desc::before{
+   content: 'ORDER SUMMARY';
+   position: absolute;
+   top: 27px;
+   left: 64px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #fff ;
+}
+
+.answer-desc-inner {
+   color: #0e8784;
+}
+
+.what-drink-coffee__btn{
+   width: 217px;
+   display: block;
+   margin-left: auto;
+   padding: 15px 35px;
+   text-decoration: none;
+   font-weight: 900;
+   font-size: 18px;
+   line-height: 25px;
+   color: #fff;
+   background-color: #0e8784;
+   border-radius: 6px;
+}
+
+.what-drink-coffee__btn:hover{
+   background-color: #66D2CF;
+}
